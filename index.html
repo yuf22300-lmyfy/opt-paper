@@ -22,7 +22,7 @@
  .note{color:#888;font-size:.78em;line-height:1.6;margin-top:24px;border-top:1px solid #222;padding-top:12px}
 </style></head><body><div class="wrap">
 <h1>币安期权模拟手册 · 50Δ×2</h1>
-<div class="meta">ATM 跨式每日双卖 ×2 名义 · $3,200 起始 · 每日 16:05 自动更新 · 最近生成：2026-11-03 03:42 UTC · 币安真实行情模拟成交</div>
+<div class="meta">ATM 跨式每日双卖 ×2 名义 · $3,200 起始 · 每日 16:05 自动更新 · 最近生成：2026-11-03 03:49 UTC · 币安真实行情模拟成交</div>
 
 <h2>账户</h2>
 <div class="cards"><div class="card"><div class="cname" style="color:#ffd700">B5_50D_x2_3200</div><div class="cval">$3,231</div><div class="crow"><span class="up">+0.97%</span><span class="dim">共5天</span><span class="dim">最差日-0.1%</span></div></div></div>
@@ -30,6 +30,8 @@
 
 <h2>每日明细（开单 · 结算 · 净值，最新在前）</h2>
 <table><tr><th>日期</th><th>开单（行权价·张数）</th><th>结算价与赔付</th><th>当日盈亏 $</th><th>净值 $</th><th>累计</th></tr><tr><td>2026-11-02</td><td style='text-align:left'><span class='down'>空仓</span><br><span class='dim'>带宽 ±0.98% &lt; 阈值 ±1.40%<br>（租金率不足，不开仓）</span></td><td>—</td><td><span class="up">+0</span></td><td>3,231</td><td class="up">+0.97%</td></tr><tr><td>2026-11-01</td><td style='text-align:left'><span class='down'>空仓</span><br><span class='dim'>带宽 ±1.29% &lt; 阈值 ±1.40%<br>（租金率不足，不开仓）</span></td><td>78,014<br><span class='down'>赔付 $21.03</span><br><span class='dim'>77,500P废 77,500C赔</span></td><td><span class="up">+7</span></td><td>3,231</td><td class="up">+0.97%</td></tr><tr><td>2026-10-31</td><td style='text-align:left'>77,500P0.04张 + 77,500C0.04张<br><span class='up'>收租 $+26.76</span><br><span class='dim'>平衡带 76,831 ~ 78,169（±0.9%）</span></td><td>77,361<br><span class='down'>赔付 $26.03</span><br><span class='dim'>78,000P赔 78,000C废</span></td><td><span class="up">+26</span></td><td>3,224</td><td class="up">+0.75%</td></tr><tr><td>2026-10-30</td><td style='text-align:left'>78,000P0.04张 + 78,000C0.04张<br><span class='up'>收租 $+51.35</span><br><span class='dim'>平衡带 76,716 ~ 79,284（±1.6%）</span></td><td>—</td><td><span class="down">-2</span></td><td>3,198</td><td class="down">-0.06%</td></tr><tr><td>2026-10-29</td><td style='text-align:left'>—</td><td>—</td><td>--</td><td>3,200</td><td class="up">+0.00%</td></tr></table><div class="note" style="border:none;margin-top:6px">对账说明：收租=开单净权利金（按真实 bid 卖出、已扣开仓费）；结算=当日 08:00 到期的昨日仓（"废"=未破位权利金全收，"赔"=破位赔付）；当日盈亏=净值变动，含未到期持仓的中间价估值。</div>
+
+<h2>闸门对比：实际 vs 如果每天开仓（不设闸门）</h2><table><tr><th>跳过日期</th><th>当日带宽</th><th>假想行权价</th><th>若开仓租金 $</th><th>结算价</th><th>若开仓净 $</th><th>实际结果</th></tr><tr><td>2026-11-01</td><td>1.29%</td><td>78,000</td><td>+39.00</td><td>78,087</td><td class="up">+35.06</td><td class='dim'>空仓 $0</td></tr></table><div class="day">累计对比：实际 <b>+31 美元（+0.97%）</b> vs 无闸门 <b>+66 美元（+2.07%）</b>——闸门至今放走 <b>35 美元</b>。反事实按当日实测带宽定价、真实结算价结算、含费用；<b>单日反事实是噪声，评判闸门要看数周累计</b>。</div>
 
 <h2>每日手册日志（最新在前）</h2>
 <section class='day'><h3>2026-11-02（指数 77,910，新到期日 2026-11-03）</h3><li>B5_50D_x2_3200：今日空仓——带宽 ±0.98% &lt; 阈值 ±1.40%（租金率不足，跳过开仓）</li><li>净值：B5_50D_x2_3200=3,231（+0.97%）</li></section>
